@@ -1,3 +1,2 @@
 #!/bin/bash
-chmod o+rwx hello
-chmod gu-rwx hello
+chmod o=rwx hello
