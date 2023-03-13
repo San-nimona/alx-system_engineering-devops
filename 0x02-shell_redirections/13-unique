@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1 |uniq | sort | ls -1
+cat -1 |uniq | sort | cat -1
