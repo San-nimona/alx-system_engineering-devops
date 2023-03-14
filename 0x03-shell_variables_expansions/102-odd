@@ -1,2 +1,2 @@
 #!/bin/bash
-mawk 'NR%2==1'
+paste -d, - - | cut -d, -f1
