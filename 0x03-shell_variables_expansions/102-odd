@@ -1,2 +1,2 @@
 #!/bin/bash
-ls | tr ' ' '\n' | mawk 'NR%2==1'
+mawk 'NR%2==1'
