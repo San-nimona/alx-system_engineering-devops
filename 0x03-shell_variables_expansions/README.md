@@ -1,0 +1,3 @@
+Shell variable expansion is a feature in Unix/Linux shell scripting that allows you to substitute the value of a variable with its corresponding value during the execution of a command. This means that you can use variables to hold data, and then reference the variables in your scripts, rather than hardcoding the data directly into the script.
+
+There are several types of variable expansions in shell scripting. The most common are the dollar sign ($) and curly braces ({}) expansions. The dollar sign is used to retrieve the value of a variable, while curly braces are used to specify the boundaries of the variable name.
