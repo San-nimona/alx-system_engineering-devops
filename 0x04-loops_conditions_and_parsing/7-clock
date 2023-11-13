@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Prints hour 1 - 12 with minutes
+hour=0
+while [ $hour -lt 13 ]; do
+	echo "Hour: $hour"
+	for min in {1..59}; do
+		echo "$min"
+	done
+	((hour++))
+done
