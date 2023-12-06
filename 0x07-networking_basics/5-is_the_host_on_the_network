@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# This script pings an IP address (5 TIMES)
-if [ "$#" -ge 1 ]
-then
-	ping -c 5 "$1"
-else
+# This script pings a passed argument 5 times
+
+if [[ "$#" -lt 1 ]]; then
 	echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+	exit
 fi
+ping -c 5 "$1"
